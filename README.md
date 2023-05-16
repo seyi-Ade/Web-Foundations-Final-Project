@@ -1,4 +1,4 @@
-#Web Page Live at: https://kibo-web-foundations-oct-22.github.io/final-project-sm/
+#Web Page Live at:  https://seyi-ade.github.io/Web-Foundations-Final-Project/
 
 # Final Project
 
