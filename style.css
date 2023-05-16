@@ -1,0 +1,507 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    display: flex;
+    padding-left: 50px;
+}
+
+.logo>img{
+    padding-top: 20px;
+}
+.logo>h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52px;
+    color: #222121;
+
+}
+
+.nav_lists{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    top: 0px;
+    left: 300px;
+    justify-content: center;
+    gap: 2rem;
+    line-height: 20px;
+    font-size: 14px;
+    color: #636262;
+    font-weight: 600;
+    letter-spacing: 0.0025em;
+    padding-top: 50px;
+    padding-left: 200px;
+    transition: all ease-in 1s;
+}
+
+.about_us>h5{
+    text-align: center;
+    color: #1D57C3;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.about_us>h3{
+    height: 36px;
+    left: 115.5px;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.about_us>p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #A1A1A1;
+    width: 100%;
+    max-width: 910px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    padding-bottom: 20px;
+}
+
+.our_team>h2{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    position: relative;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.our_team>p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #A1A1A1;
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    left: 25%;
+}
+
+.team_info{
+    position: absolute;
+    width: 296px;
+    height: 202px;
+    /* left: 10px;
+    top: 900px; */
+    background: linear-gradient(116.26deg, rgba(96, 96, 96, 0.5) 0%, rgba(96, 96, 96, 0.25) 101.96%);
+    backdrop-filter: blur(10px);
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.team_info > *{
+    width: 100%;
+    max-width: 225px;
+}
+
+.team_images {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 1024px;
+    padding-left: 10%;
+    margin-bottom: 300px;
+}
+
+.team_img{
+    width: 390px;
+    height: 436px;
+    border-radius: 7px;
+}
+
+.info1{
+    left: 180px;
+    top: 220px;
+}
+
+.info2{
+    top: 220px;
+    margin-left: 30px;
+}
+
+.info3{
+    top: 220px;
+    margin-left: 30px;
+}
+
+.info4{
+    top: 700px;
+    left: 180px;
+}
+
+.info5{
+    top: 700px;
+    margin-left: 30px;
+}
+
+.info6{
+    top:700px;
+    margin-left: 30px;
+}
+
+.launch{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+    background: #5C37EE;
+    box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    border: none;
+    color: #F9F9F9;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 45%;
+    margin-bottom: 100px;
+}
+
+.start{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.start_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #A1A1A1;
+    margin-bottom: 20px;
+}
+
+.analytics{
+    height: 450px;
+    background: url(bg.jpeg), #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.terms{
+    width: 386px;
+    height: 245px;
+    left: 104px;
+    top: 123px;
+    background: linear-gradient(116.26deg, rgba(96, 96, 96, 0.5) 0%, rgba(96, 96, 96, 0.25) 101.96%);
+    backdrop-filter: blur(10px);
+    border-radius: 3px;
+    color: white;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.terms>*{
+    text-align: center;
+    max-width: 400px;
+    padding-top: 10px;
+}
+
+.analytics_cards{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+
+}
+
+.value{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #1D57C3;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.ambition{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 600px;
+    margin-left: 29%;
+}
+
+.connected{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #A1A1A1;
+    margin-top: 20px;
+}
+
+.missions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1024px;
+    margin-left: 20%;
+    margin-top: 150px;
+}
+
+.mission{
+    width: 385px;
+    height: 359px;
+    text-align: center;
+    max-width: 250px;
+}
+
+.mission>h4{
+    font-weight: 600;
+}
+
+.mission>p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #A1A1A1;
+}
+
+.open_P{
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.open_T{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #A1A1A1;
+    max-width: 900px;
+    margin-left: 20%;
+}
+
+.active{
+    padding: 8px 12px; 
+    border: none;
+    background: #5C37EE;
+    box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+    margin: auto;
+}
+
+.jobs{
+    display: flex;
+    margin: 10% 10% 50px 10%;
+}
+
+.available_jobs{
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.flex_jobfind>h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #1D57C3;
+}
+
+.job_box{
+    box-shadow: 2px 2px 4px rgba(47, 47, 47, 0.25), -2px -2px 4px rgba(47, 47, 47, 0.25);
+    border-radius: 10px;
+    width: 1222px;
+    height: 232px;
+    padding-left: 30px;
+}
+
+.job_box>h3{
+    margin-top: -19px;
+}
+
+.jobinfo{
+    display: flex;
+    color: #A1A1A1;
+    gap: 1rem;
+    margin-top: 40px;
+}
+
+.jobs_boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 150px;
+}
+
+footer{
+    background-color: #5C37EE;
+}
+
+.links{
+    display: flex;
+    gap: 9rem;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+.link{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #CFCFCF
+}
+
+.footer_logo{
+    display: flex;
+}
+.footer_logo>h1{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.logo_copy{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.apple_text{
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    text-align: center;
+}
+
+.increase__font {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.increase__font-2 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* .apple_text>h6{
+    font-size: 12px;
+} */
+
+
+.apple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 9px;
+    margin: 15px;
+    /* height: 40px; */
+}
+
+.new{
+    width: 49px;
+    height: 26px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    color: #5C37EE;
+}
+
+.socials{
+    margin-top: 12px;
+}
+
+.socials>img{
+    margin: 5px;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+
+.arrow>img{
+    align-self: flex-end;
+    position: relative;
+    top: -20px;
+    right: -25px;
+}
+
+.find_job{
+    display: flex;
+    color: #1D57C3;
+    width: 150px;
+    gap: 1rem;
+}
+
+.find_job>img{
+    height: 16.55px;
+    width: 17.08px;
+    padding-top: 22px;
+}
+
+.flex_jobfind{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link>li{
+    transition: all ease-in 1s;
+}
+
+.link>li:hover{
+    transform: scale(1.2);
+}
+.nav_lists>li:hover{
+    transform: scale(1.2);
+}
